@@ -1,0 +1,148 @@
+#reverseReference /resource/com/ftl/wak/customize/CommonVN.dic
+DATA_FILE==File dữ liệu
+ImportExcelOnly==Chỉ hỗ trợ import file EXCEL (.xls, .xlsx).
+GEN_HTML==&#xf002;
+	Title==Tìm kiếm
+GEN_EXCEL==&#xf1c3;
+	Title==Tạo file excel
+Total==Tổng
+TOGGLE_SQL_DISPLAY==Ẩn/hiện câu lệnh SQL
+ADD_MODULE==Thêm module vào trang
+DESIGN_PAGE==Sửa cấu trúc trang
+MANAGE_PAGE==Quản lý trang nền
+APPLY_PAGE==Áp dụng trang nền
+EDIT_MODULE_CODE==Sửa code chức năng
+ADD_SCHEDULED_TASK==Đặt lịch thực hiện
+MODERATE_GROUP==Quản lý thành viên nhóm
+abc
+Comment==Bình luận
+EditNote==Sửa bình luận
+RemoveNote==Xóa bình luận
+NoteHeader==Lúc $CREATED$ $CREATOR$ viết:
+NoteModifiedStatement==Sửa lúc $MODIFIED$ bởi $MODIFIER$
+ShowOlderNote==Hiển thị bình luận cũ hơn
+AddNewNote==Nhập bình luận mới
+SaveNote==Lưu lạiSSSSSSSSSSSS
+Description==Mô tả
+TransitionNotDeclared==Tác động <%p0> không phù hợp ở trạng thái <%p1>.
+
+Attachment==File đính kèm
+AttachmentStatement==Đưa lên lúc $CREATED$ bởi $CREATOR$
+AddAttachment==Thêm file
+ModifyAttachment==Sửa thông tin file
+RemoveAttachment==Xóa file
+
+Login==&#xf090;
+	Title==Đăng nhập
+Home==Trang chủ
+Register==Đăng ký
+Message
+	RemoveAttm==Bạn có thực sự muốn xóa file '<%p>' không?
+	NoDataFound==Không tìm thấy bản ghi nào.
+	NoSelectionRemove==Bạn cần chọn ít nhất một bản ghi để xóa.
+	Remove==Bạn có thực sự muốn xóa bản ghi <%p> không?
+	RemoveSelected==Bạn có thực sự muốn xóa các bản ghi đã chọn không?
+	TransactionRolledBack==Xảy ra lỗi trong quá trình thực hiện. Các thao tác thành công trước đó sẽ bị hủy bỏ.
+ConfirmSubmitUnchangedForm==Dữ liệu trên form chưa được chỉnh sửa. Nếu thực hiện có thể xảy ra lỗi không mong muốn. Bạn có thực sự muốn thực hiện không?
+ConfirmCloseChangedForm==Dữ liệu trên form đã được chỉnh sửa. Dữ liệu này sẽ mất nếu bạn thoát. Bạn có thực sự muốn thoát không?
+
+TabBasicCriteria==Tham số báo cáo
+TabAdvanceCriteria==Tham số nâng cao
+
+ADD==&#xf067;
+	Title==Tạo mới
+IMPORT==&#xf093;
+	Title==Import file
+REMOVE_SELECTED==&#xf014;
+	Title==Xóa dòng đã chọn
+ACTION==Tác động
+OK==&#xf00c;
+	Title==OK
+CANCEL==&#xf00d;
+	Title==Cancel
+SAVE==&#xf046;
+	Title==Hoàn thành
+RESET==&#xf021;
+	Title==Nhập lại
+APPLY==&#xf0c7;
+	Title==Ghi lại
+CLOSE==&#xf08b;
+	Title==Thoát
+DETAIL==Chi tiết
+COPY==Sao chép
+EDIT==Sửa
+REMOVE==Xóa
+ADD_ROW==&#xf067;
+	Title==Thêm dòng
+REMOVE_ROW==&#xf1f8;
+	Title==Xóa dòng
+
+PreviousPage==&#xf053;
+	Title==Trang trước
+NextPage==&#xf054;
+	Title==Trang sau
+FirstPage==&#xf053;&#xf053;
+	Title==Trang đầu
+LastPage==&#xf054;&#xf054;
+	Title==Trang cuối
+
+DateRange
+	l0d-l0d==Hôm nay
+		Start==moment().startOf('day')
+		End==moment().endOf('day')
+	l1d-l1d==Hôm qua
+		Start==moment().subtract(1, 'day').startOf('day')
+		End==moment().subtract(1, 'day').endOf('day')
+	l2d-l2d==Hôm kia
+		Start==moment().subtract(2, 'day').startOf('day')
+		End==moment().subtract(2, 'day').endOf('day')
+	l0w-l0w==Tuần này
+		Start==moment().startOf('week')
+		End==moment().endOf('week')
+	l1w-l1w==Tuần trước
+		Start==moment().subtract(1, 'week').startOf('week')
+		End==moment().subtract(1, 'week').endOf('week')
+	l0m-l0m==Tháng này
+		Start==moment().startOf('month')
+		End==moment().endOf('month')
+	l1m-l1m==Tháng trước
+		Start==moment().subtract(1, 'month').startOf('month')
+		End==moment().subtract(1, 'month').endOf('month')
+	l7d-l0d==7 ngày qua
+		Start==moment().subtract(7, 'days').startOf('day')
+		End==moment().endOf('day')
+	l30d-l0d==30 ngày qua
+		Start==moment().subtract(30, 'days').startOf('day')
+		End==moment().endOf('day')
+MonthRange
+	l0m-l0m==Tháng này
+		Start==moment().startOf('month')
+		End==moment().endOf('month')
+	l1m-l1m==Tháng trước
+		Start==moment().subtract(1, 'month').startOf('month')
+		End==moment().subtract(1, 'month').endOf('month')
+	l0q-l0q==Quý này
+		Start==moment().startOf('quarter')
+		End==moment().endOf('quarter')
+	l1q-l1q==Quý trước
+		Start==moment().subtract(1, 'quarter').startOf('quarter')
+		End==moment().subtract(1, 'quarter').endOf('quarter')
+	l0y-l0y==Năm nay
+		Start==moment().startOf('year')
+		End==moment().endOf('year')
+	l1y-l1y==Năm trước
+		Start==moment().subtract(1, 'year').startOf('year')
+		End==moment().subtract(1, 'year').endOf('year')
+	l3m-l0m==3 tháng qua
+		Start==moment().subtract(3, 'month')
+		End==moment().endOf('day')
+ToggleSqlDisplay==Ẩn/hiện câu lệnh sql
+ToggleConfigDisplay==Ẩn/hiện cấu hình trang
+StatementEnqueuedSuccessfully=:
+:{
+	!
+	"Câu lệnh tổng hợp đã được ghi nhận & sẽ sớm được thực hiện.<br>" +
+	"Bạn có thể theo dõi việc thực hiện trên <a href=\"" + action.getContextPath() +
+	action.getResponse().encodeURL("/com/ftl/dbutil/rpt_sql_execution_log.jsp") +
+	"?GEN_HTML&CREATED=l0d-l0d\">Báo cáo tình hình thực hiện câu lệnh SQL</a>."
+:}
