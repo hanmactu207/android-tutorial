@@ -18,7 +18,7 @@ abc
 Comment==Bình luận
 EditNote==Sửa bình luận
 RemoveNote==Xóa bình luận
-NoteHeader==Lúc $CREATED$ $CREATOR$ viết:
+NoteHeader==Lúc $CREATED$ $CREATOR$ viết:sssssss
 NoteModifiedStatement==Sửa lúc $MODIFIED$ bởi $MODIFIER$
 ShowOlderNote==Hiển thị bình luận cũ hơn
 AddNewNote==Nhập bình luận mới
